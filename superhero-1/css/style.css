@@ -1,0 +1,124 @@
+/* CSS */
+
+html
+{
+	background-image: url(../img/carbon.png)
+	
+}
+h1
+
+{
+justify-content: space-between;
+display:flex;
+align-items:center;	
+width:100px;
+height:80;
+border:20px;
+color:white;
+background-color:none;
+text-decoration: none;
+font-family: "Bungee", sans-serif;
+font-weight: 400;
+font-style: normal;
+transition: background-color 700ms;
+
+}
+
+h2
+
+ {
+	 padding:10px;
+border: 20px;
+text-decoration-line:overline;
+text-decoration-line:underline;
+text-decoration-color:whiteq;
+text-decoration-thickness:4px;
+
+ 
+
+text-decoration-style:wavy;
+
+background-color:beige;
+transition: background-color 666ms;
+	 background-color:none;
+color:white; 
+ font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+
+h2 a:hover
+{
+background-color:green;
+}
+
+}
+background-color:yellow;
+color:white;
+font-shadow:white;
+
+}
+div.batman
+{
+padding:10px;
+border: 20px;
+text-decoration-line:line-through; 
+background-color:red;
+transition: background-color 666ms;
+}
+
+
+div.batman ul a:hover
+{
+background-color:yellow;
+}
+
+div.superman a:hover
+{
+background-color:purple;
+text-decoration-line:none;
+transition: back-groundcolor 500ms;
+
+
+	
+}
+
+div.wonder-woman
+{
+background-color:red;
+}
+li
+{
+background-color:orange;
+text-decoration-line:none;
+transition: back-groundcolor 500ms;
+	
+}
+
+div.dc
+{
+	text-align: center;
+	font-size:33px;
+	
+}
+
+p{
+	color:white;
+}
+div.marvel
+{
+	font-size:33px;
+}

@@ -1,0 +1,27 @@
+/* CSS */
+
+ul li
+{
+display:inline-block;
+border: 2px solid red;
+}
+
+ul
+{
+	background-color: orange;
+	text-align:center;
+	}
+ul li a:hover
+{
+color:black;
+background-color:purple;
+}
+ul li a
+{
+border: 2px black;
+display: inline-block;
+padding: 29px;
+text-decoration:strike;
+font-family:times;
+
+}
