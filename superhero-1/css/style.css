@@ -1,5 +1,13 @@
 /* CSS */
 
+
+div
+{
+{
+	height:350px;
+	background-color:teal;
+}
+}
 html
 {
 	background-image: url(../img/carbon.png)
@@ -38,7 +46,7 @@ text-decoration-thickness:4px;
 
 text-decoration-style:wavy;
 
-background-color:beige;
+background-color:purple;
 transition: background-color 666ms;
 	 background-color:none;
 color:white; 
@@ -98,11 +106,11 @@ transition: back-groundcolor 500ms;
 
 div.wonder-woman
 {
-background-color:red;
+background-color:none;
 }
 li
 {
-background-color:orange;
+background-color:white;
 text-decoration-line:none;
 transition: back-groundcolor 500ms;
 	
@@ -121,4 +129,12 @@ p{
 div.marvel
 {
 	font-size:33px;
+}
+
+div.news
+{
+position:absolute;
+top:60px;
+left:1300px;
+
 }
