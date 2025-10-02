@@ -1,0 +1,81 @@
+/* CSS */
+* {margin: 0; padding: 0; border-box: overflow; hidden}
+
+body
+{background-image: url("../img/pizza.jpg");}
+
+nav ul lu, nav ul li {display: inline-block;}
+
+nav ul li a
+{
+display:inline-block;
+border: 0px solid red;
+font-size: 25px;
+background-color:#550000;
+color:white;
+text-decoration: none;
+
+}
+div.main
+{
+	
+	width:72%;
+	background-color: rgb(245, 245, 220, 0.5); 
+	margin: 30px;
+	border: 2px;
+}
+p
+{
+	
+font-size:30px;
+color: black;
+padding:30px;
+margin:20px auto;
+line-height:40px;
+border: 2px black;	
+}
+
+h1
+{
+  font-family: "Playwrite FR Moderne", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+text-align: center;	
+}
+ul
+{
+	background-color: #FFFFE8;
+	text-align:right;
+	
+	}
+	
+.active 
+{  
+background-color: #595959;
+color:#550000;
+}
+ul li :hover, 
+{
+color:red;
+background-color:black;
+
+}
+ul li a
+{
+border: 2px black;
+display: inline-block;
+padding: 29px;
+border-radius:15px;
+
+}
+
+h3
+{
+  font-family: "Playwrite FR Moderne", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+text-align: center;	
+
+}
