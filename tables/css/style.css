@@ -28,7 +28,7 @@ p
 {
 	
 font-size:30px;
-color: black;
+color: white;
 padding:30px;
 margin:20px auto;
 line-height:40px;
@@ -76,5 +76,31 @@ h3
   font-weight: <weight>;
   font-style: normal;
 text-align: center;	
+
+}
+ul h1
+{  
+color:white;
+background-color:black;
+}
+
+h2
+{
+	color:white;
+	 font-family: "Playwrite FR Moderne", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+text-align: center;	
+}
+
+table
+{
+	color:white;
+}
+
+td :hover
+{
+color:green;
 
 }

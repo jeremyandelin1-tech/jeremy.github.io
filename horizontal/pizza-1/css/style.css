@@ -18,7 +18,7 @@ text-decoration: none;
 }
 div.main
 {
-	
+	margin:20px auto;
 	width:72%;
 	background-color: rgb(245, 245, 220, 0.5); 
 	margin: 30px;
@@ -60,12 +60,13 @@ color:red;
 background-color:black;
 
 }
+
 ul li a
 {
 border: 2px black;
 display: inline-block;
 padding: 29px;
-border-radius:35%;
+border-radius:20px 20px 0 0;
 
 }
 
@@ -78,3 +79,18 @@ h3
 text-align: center;	
 
 }
+
+ul.jobs
+{
+	
+	border:1px black;
+	color:black;
+}
+
+ul.jobs li
+{
+	display:block;
+	border:2px black;
+	
+}
+
