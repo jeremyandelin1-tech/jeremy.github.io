@@ -56,6 +56,7 @@ color:#550000;
 }
 ul li :hover, 
 {
+	display:inline-block;
 color:red;
 background-color:black;
 
@@ -80,17 +81,26 @@ text-align: center;
 
 }
 
-ul.jobs
+ul.jobs .about
 {
-	
-	border:1px black;
-	color:black;
+	display:hidden;
+}
+.jobs .about
+{
+	display: none;
 }
 
-ul.jobs li
+
+.about:hover ul
+
 {
-	display:block;
-	border:2px black;
 	
+	align-items:start;
+	display: flex;
+	flex-direction:column;
 }
 
+.jobs 
+{
+	display: none;
+}
