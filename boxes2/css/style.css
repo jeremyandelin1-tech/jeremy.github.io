@@ -64,17 +64,11 @@ align-items: baseline;
 	
 }
 
-.tooth {
-	position:absolute;
-   width: 0px;
-   height: 0px;
-   border-style: solid;
-   border-width: 0 53.5px 150px 53.5px;
-   border-color: black transparent #000099 transparent;
-   transform: rotate(5deg);
-   z-index: 6;
-   margin:10 200px 400px 180px
-}
+
+/*mouth outline*/
+
+
+
 
 .eyeright, .eyeleft
 {
@@ -88,6 +82,170 @@ align-items: baseline;
 	align-items: center;
 	
 }
+
+
+.tooth1
+{
+	background: yellow;
+	border-radius:10%;
+	width:20px;
+	height: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-53px;
+	right:-75px;
+	transform: rotate(25deg);
+}
+
+
+.tooth2
+{
+	background: white;
+	border-radius:10%;
+	width:20px;
+	height: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-63px;
+	right:-96px;
+	transform: rotate(25deg);
+}
+
+.tooth3
+{
+	background: white;
+	border-radius:10%;
+	width:20px;
+	height: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-75px;
+	right:-116px;
+	transform: rotate(20deg);
+}
+
+.toothtop1
+{
+	background: white;
+	border-radius:100% 0% 16% 84% / 0% 100% 0% 100%;
+	width:26px;
+	height: 40px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-165px;
+	right:-132px;
+	transform: rotate(deg);
+}
+
+.toothtop2
+{
+	background: white;
+	border-radius:100% 0% 100% 0% / 0% 0% 100% 100%;
+	width:26px;
+	height: 40px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-206px;
+	right:-160px;
+	transform: rotate(deg);
+}
+
+.shirt
+{
+	background: red;
+	border-radius:52% 48% 0% 100% / 100% 55% 45% 0%  ;
+	width:300px;
+	height: 300px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-110px;
+	right:-5px;
+	transform: rotate(deg);
+	border:10px solid black;
+}
+
+.rightsleeve
+{
+	background: red;
+	border-radius:52% 48% 0% 100% / 100% 55% 45% 0%  ;
+	width:50px;
+	height: 50px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-400px;
+	right:-250px;
+	transform: rotate(-120deg);
+	border:10px solid black;
+}
+
+.rightsleeve
+{
+	background: red;
+	border-radius:52% 48% 0% 100% / 100% 55% 45% 0%  ;
+	width:50px;
+	height: 50px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-400px;
+	right:-250px;
+	transform: rotate(-120deg);
+	border:10px solid black;
+}
+
+/* lower right arm position */
+
+
+.rightarm
+{
+	background: beige;
+	border-radius:87% 13% 87% 13% / 88% 20% 80% 12% ;
+	width:400px;
+	height: 50px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-460px;
+	right:-75px;
+	transform: rotate(-18deg);
+	z-index:-1;
+}
+
+/*upper forearm*/
+
+
+.rightarm1
+{
+	background: beige;
+	border-radius:87% 13% 87% 13% / 88% 20% 80% 12% ;
+	width:300px;
+	height: 50px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-720px;
+	right:-255px;
+	transform: rotate(75deg);
+	z-index:-1;
+}
+
 
 
 .eyeleft
@@ -111,8 +269,83 @@ border-radius:10%;
 box-shadow:inset -22px 4px 0 3px rgba (255, 255, 255, 0.164);
 
 }
+ /*left pant portion*/
+
+.pant1
+{
+	background: gray;
+	border-radius:52% 48% 0% 100% / 100% 55% 45% 0%  ;
+	width:135px;
+	height: 300px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-300px;
+	right:-15px;
+	transform: rotate(180deg);
+	border:10px solid black;
+	z-index:-1;
+}
+
+/* pant leg right*/
+
+.pant2
+{
+	background: gray;
+	border-radius:52% 48% 0% 100% / 100% 55% 45% 0%  ;
+	width:135px;
+	height: 300px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-630px;
+	right:-158px;
+	transform: rotate(180deg);
+	border:10px solid black;
+	z-index:-1;
+}
+
+/*left shoe*/
+
+.shoe1
+{
+	background: black;
+	border-radius:52% 48% 0% 100% / 100% 55% 45% 0%  ;
+	width:135px;
+	height: 55px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-690px;
+	right:-158px;
+	transform: rotate(deg);
+	border:10px solid black;
+	z-index:-1;
+}
+
+/*shoe left*/
 
 
+.shoe2
+{
+	background: black;
+	border-radius:52% 48% 0% 100% / 100% 55% 45% 0%  ;
+	width:135px;
+	height: 55px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:-765px;
+	right:-1px;
+	transform: rotate(deg);
+	border:10px solid black;
+	z-index:-1;
+}
+/*eyes behind asst*/
 
 .eyeleft::after, eyeright::after {
 	content:"";
@@ -123,24 +356,4 @@ box-shadow:inset -22px 4px 0 3px rgba (255, 255, 255, 0.164);
 	rotate:45deg;
 	
 	
-.cutout
-{ 
-position: absolute;
-width:100px;
-height: 100px;
-background: white;
-border-radius:3px;
-
 }
-
-div.mouth
-{
-	width:180px;
-	height:180px;
-	position: abolute;
-	border:10px solid black;
-	border-radius: 50%;
-	align-self:center;
-	
-}
-	
