@@ -1,4 +1,4 @@
-
+/*initial setups*/
 .body
 {
 background-color:white;
@@ -6,7 +6,7 @@ place-items: center;
 
 }
 .mouth
-
+/*positioning assistance*/
 }
 .container
 {
@@ -14,6 +14,8 @@ display: flex;
 justify-content: center;
 position:relative;
 }
+
+/*head basis and main*/
 .head
 {
 width:300px;
@@ -35,7 +37,7 @@ align-items: baseline;
 	border-radius: 50%;
 	box-shadow: inset -22px 4px 0 3px rgba(0,0,0,.2);
 }
-
+/*head shaddow drop */
 
 .head::after
 {
@@ -48,6 +50,7 @@ align-items: baseline;
 	border:10px solid black;
 }
 
+/*basic black hole for mouth*/
 .mouth
 
 {
@@ -83,7 +86,7 @@ align-items: baseline;
 	
 }
 
-
+/*tooth gold addition*/
 .tooth1
 {
 	background: yellow;
@@ -99,7 +102,7 @@ align-items: baseline;
 	transform: rotate(25deg);
 }
 
-
+/*tooth bottom second to right*/
 .tooth2
 {
 	background: white;
@@ -114,7 +117,7 @@ align-items: baseline;
 	right:-96px;
 	transform: rotate(25deg);
 }
-
+/*tooth on the lower right*/
 .tooth3
 {
 	background: white;
@@ -129,7 +132,7 @@ align-items: baseline;
 	right:-116px;
 	transform: rotate(20deg);
 }
-
+/*bucktooth number one*/
 .toothtop1
 {
 	background: white;
@@ -144,7 +147,7 @@ align-items: baseline;
 	right:-132px;
 	transform: rotate(deg);
 }
-
+/*bucktooth number 2*/
 .toothtop2
 {
 	background: white;
@@ -159,7 +162,7 @@ align-items: baseline;
 	right:-160px;
 	transform: rotate(deg);
 }
-
+/*shirt basis and begining main */
 .shirt
 {
 	background: red;
@@ -175,7 +178,7 @@ align-items: baseline;
 	transform: rotate(deg);
 	border:10px solid black;
 }
-
+/*begging of color starts for sleve*/
 .rightsleeve
 {
 	background: red;
@@ -191,7 +194,7 @@ align-items: baseline;
 	transform: rotate(-120deg);
 	border:10px solid black;
 }
-
+/*assistance creating shirt rightside sleeve*/
 .rightsleeve
 {
 	background: red;
@@ -246,7 +249,7 @@ align-items: baseline;
 	z-index:-1;
 }
 
-
+/*position assistance for eyes*/
 
 .eyeleft
 {

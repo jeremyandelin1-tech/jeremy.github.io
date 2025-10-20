@@ -1,0 +1,131 @@
+/* CSS */
+
+* {margin:; padding: ; border-box: overflow; hidden}
+
+body 
+
+{background:#DB9C68;}
+            
+
+ 
+h1
+{
+
+
+  font-family: "Jacquard 12 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+font-size:180px;
+text-align:center;
+
+
+
+}
+
+
+h2
+{
+	text-align:center;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+	font-size:90px;
+}
+
+ul li
+{
+color:#443B3C;
+display:inline-flex;
+border: ;
+padding:px;
+margin:30px;
+border-radius:10px;
+	background: radial-gradient(ellipse at top, #DB531F, transparent),
+            radial-gradient(ellipse at bottom, #DEA814, transparent);
+}
+
+ul
+{
+	
+	text-align:center;
+	}
+ul li a:hover
+{
+color:white;
+	background: radial-gradient(ellipse at top, #DEA814, transparent),
+            radial-gradient(ellipse at bottom, #DB531F, transparent);
+			transition-delay: ;
+			border-radius:10px;
+}
+ul li a
+{
+border: 2px black;
+display: inline-block;
+padding: 29px;
+text-decoration:strike;
+font-family:times;
+
+}
+
+p
+{
+	
+}
+
+
+div.topping
+{
+	display:flex;
+	padding:20px;
+	margin:px;
+}
+
+div.menu
+{
+	  background:black;
+	  color:red;
+	font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+	font-size:90px;
+	font-size:30px;
+	text-decoration:none;
+}
+
+p
+{
+	
+	width:450px;
+	height:275px;
+	border:dotted 20px;
+	Margin:40px;
+	padding:15px;
+	spacing:5px;
+	
+}
+
+
+.gif
+{
+    display:block;
+	position:absolute;
+	left:800px;
+	top:-500;
+}	
+
+
+.ball
+{
+	  display:inline-block;
+float:left;
+width:50%;
+text-align:center;
+}
