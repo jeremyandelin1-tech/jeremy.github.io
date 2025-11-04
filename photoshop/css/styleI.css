@@ -1,0 +1,83 @@
+/*Close enough to that classic wordle font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121213;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+/*I don't like the black color, explore other dark options */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #black;
+}
+/*Setups for my file buttons*/
+.icon {display:inline;
+  width: 30px;
+  padding-right:30 px;
+}
+/*Setups for my right buttons*/
+.iconright {display:flex;
+  width: 30px;
+  padding-right:300 px;
+}
+/*Font Sizing For my Main*/
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+/*Gamebox row setups 5x6*/
+.grid {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 12px;
+  margin: 55px auto;
+  width: fit-content;
+}
+/*Gamebox column setups 5x6*/
+.column {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+/*Little individual gamebox square descriptors,and the colorazation requested*/
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #d3d6da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #121213;
+  color: white;
+}
+/*Start Of Keyboard classes*/
+.keyboard {
+  margin: 5px auto;
+  width: fit-content;
+}
+/*Organization of keys, and fitment*/
+.key-row {
+  display: flex;
+  justify-content: center;
+  padding:8px;
+  margin-bottom: 8px;
+}
+/*silly little key descriptors and the colorazation requested*/
+.key {
+  background-color: #d3d6da;
+  border: 2px black;
+  margin:4px;
+  border-radius: 4px;
+  padding: 18px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}

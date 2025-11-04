@@ -1,0 +1,17 @@
+for xrange:(1, 13)
+print(x)
+
+
+
+i=1
+task2sum=0
+while i=1<201
+task2sum=task2sum+i
+
+i = 1
+task2sum = 0
+while i < 201:
+	task2sum = task2sum + i
+	i += 1
+
+print(task2sum)

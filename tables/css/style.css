@@ -104,3 +104,5 @@ td :hover
 color:green;
 
 }
+
+@keyframes beavis {0% {color: red;} 100% {color: blue;}}
