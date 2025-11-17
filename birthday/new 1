@@ -1,0 +1,51 @@
+#The Change Machine
+
+while True:
+	#ask for amounts
+	change=int(input ("enter the amount of money you need to break change for. (0 Exits, enter in this form of cents Max 1,000,000 cents = $10,000)
+	
+		#Exit scenario
+		if change == 0
+			print("Goodbye")
+			break
+			
+		if change < 0 or change > 1,000,000:
+			print (" Enter a valid amount (0-1,000,000 Cents).")
+			continue
+		
+		#Surmise amounts of bills and change
+		hundred = change //100000
+		change %=10000
+		
+		fifty = change // 5000
+		change %= 5000
+		
+		twenty = change //2000
+		change %= 2000
+		
+		ten = change // 1000
+		change%= 1000
+		
+		five = change // 500
+		change%= 500
+		
+		single = change // 100
+		change %= 100
+		
+		quarter = change // 25
+		change %= 25
+		
+		dime = change // 10
+		change %= 10
+		nickel =change //5
+		change %= 5
+		
+		penny =change //1
+		change %= 1
+		
+	#reciepts
+	print("Here is your change!")
+	print("")
+	print(f" Hundreds: {hundred}, Fifties: {fifty} , Twenty: {twenty}, Tens: {ten}, Five: {five},Dollars: {single}, Quarters: {quarter}, Dimes: {dime}, Nickles: {nickel}, Pennies: {penny}"
+	print("")
+	print("Thankyou for ocming to the 'Change Machine'")
