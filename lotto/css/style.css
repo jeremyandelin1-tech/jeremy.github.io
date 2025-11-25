@@ -1,0 +1,38 @@
+body {
+
+
+}
+
+  
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  text-align: center;
+  padding: 50px;
+  color: #FC3619;
+}
+
+h1 {
+  font-family: "Honk", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #FC193F;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight:800;
+  color: #CF19FC;
+  background: #8519FC;
+  padding: 45px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+footer {
+	  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 40px;
+  font-size: 25px;
+  color: #FF53d6;
+}
