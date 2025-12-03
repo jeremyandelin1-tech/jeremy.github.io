@@ -1,0 +1,108 @@
+/* CSS */
+* {
+margin: 0; 
+padding: 0; 
+box-sizing: 
+border-box; 
+user-select: none;
+}
+	
+
+body
+
+{
+ background: linear-gradient(to right, #012030, #45C4B0);
+  }
+
+h2#game-message
+{
+	font-size:100px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0,
+    "SHLN" 50;
+	margin-bottom: 20px;
+	text-align: center;
+}
+h3
+{
+	font-size:100px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0,
+    "SHLN" 50;
+	margin-bottom: 20px;
+	text-align: center;
+}
+div#game-board
+{
+    overflow: hidden;
+    margin: 20px auto;
+	border:;
+	width: 605px;
+}
+
+div[id^="row-"] {clear: both;}
+div[id^="row-"] div
+{
+    border: 10px solid #052633;
+	height: 200px;
+	width: 200px;
+	float: left;
+	text-align:center;
+	font-size:150px;
+	 font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0,
+    "SHLN" 50;
+
+	
+}
+button {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: white;               
+  border: none;              
+  padding: 10px 20px;         
+  font-size:35px;
+  border-radius: 10px;         
+  cursor: pointer;            
+  transition: 500ms;    
+ font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0,
+    "SHLN" 50;  
+}
+
+button:hover {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* purple-blue gradient on hover */
+}
+
+
+
+#scoreboard {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Honk", system-ui;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+
+
+div#row-1 div {border-top: none;}
+div#row-3 div {border-bottom: none;}
+div[id^="row-"] div:first-child {border-left: none;}
+div[id^="row-"] div:last-child {border-right: none;}
+
