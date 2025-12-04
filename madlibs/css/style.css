@@ -1,0 +1,80 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2A3340, #DBBA36);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    background: #D9CBBF;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 25px;
+    width: 400px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0,
+        "SHLN" 50;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: #2A3340;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0,
+        "SHLN" 50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 23px;
+    font-weight: bold;
+}
+
+input {
+    padding: 14px;
+    margin-top: 29px;
+    border: 15px solid #C5C58F;
+    border-radius: 9px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 14px;
+    background-color: #8C8954;
+    border: none;
+    border-radius: 9px;
+    cursor: finger;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #C5C58F;
+    color: #5F6D73;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    background: #8C8954;
+    border-left: 4px solid #DBBA36;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
