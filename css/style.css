@@ -1,0 +1,49 @@
+.collapse {
+  transition: height 0.35s ease, opacity 0.35s ease;
+}
+
+.collapse.show {
+  opacity: 1;
+}
+
+.collapsing {
+  opacity: 0;
+  height: 0;
+  transition: height 0.5s ease, opacity 0.5s ease;
+}
+
+
+/* Quote box styling */
+.quote-box {
+  border-left: 4px solid rgba(13, 110, 253, 0.6);
+  padding-left: 1rem;
+  transition: color 200ms ease;
+}
+
+
+/* Subtle animated site background */
+.site-bg-animated {
+  background: linear-gradient(120deg, orange, #00008b); /* orange to dark blue */
+  background-size: 400% 400%;
+  animation: gradientShift 20s ease-in-out infinite;
+  min-height: 100vh;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+div.dropdown
+{
+	font-size:50px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0,
+    "SHLN" 50;
+	margin-bottom: 20px;
+	text-align: center;
+}
