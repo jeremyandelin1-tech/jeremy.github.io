@@ -1,37 +1,67 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<title>Home</I></title>
-		<link href="css/style.css" rel="stylesheet" type="text/css">
-		<<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+<head>
+  <title>Home - Ratscallion's Pizza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.bundle.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Honk&display=swap" rel="stylesheet">
 </head>
-	
-<body>
-<h1>RATSCALLION'S</h1>
-		
-		<div class="menu">
-		
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="order.html">Order</a></li>
-		</ul>
-		</div>
-		<h2>Sumthin' About Pizza</h2>
-		<div class="ball">
-		
-		<img src="img\ratman.webp"  height="1000px" alt="Founder">
-		</div>
-		
-		<div class="ball">
-		<p>Here at uncle bens Ratscallion's pizza place we like have somewhat of a certain "je ne sais quoi" that makes you feel as if you should've taken the stairs instead of hopping on that elevator if you know what im talkin about. I miss you by Blinkk 182 is our only vinyl we have playing in the bathroom and unfortunantely its stuckon repeat over that weird section where they start talking about spiders. We had a "Chuck E Cheese" Style mascot that used to do some sort of an act out front but he's out on house arrest for the next few months or so so the pinball machines are kinda our main attraction for the time being. Hope you got your tetnus and flu shots, because, oh well they're just important to have in general. Hope the pies not too cold. Cheers mate!</p>
-		
-		</div>
-	</body>
+
+<body class="pizza-gradient">
+
+  <!-- Site Title -->
+  <h1 class="text-center my-4 honk-font">RATSCALLION'S</h1>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand honk-font" href="index.html">RATSCALLION'S</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav" aria-controls="navbarNav" 
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Intro Card -->
+    <div class="card shadow-lg p-4 mb-5 bg-white rounded">
+      <h2 class="text-center honk-font mb-3">Sumthin' About Pizza</h2>
+      <p class="lead">
+        Here at Uncle Ben’s Ratscallion's Pizza place we like to have somewhat of a certain "je ne sais quoi" that makes you feel as if you should've taken the stairs instead of hopping on that elevator if you know what I’m talkin’ about.  
+        <br><br>
+        *I Miss You* by Blink-182 is our only vinyl we have playing in the bathroom and unfortunately it’s stuck on repeat over that weird section where they start talking about spiders.  
+        <br><br>
+        We had a "Chuck E Cheese" style mascot that used to do some sort of act out front but he's out on house arrest for the next few months, so the pinball machines are kinda our main attraction for the time being.  
+        <br><br>
+        Hope you got your tetanus and flu shots, because, oh well, they’re just important to have in general. Hope the pie’s not too cold. Cheers mate!
+      </p>
+    </div>
+
+    <!-- Founder Image -->
+    <div class="card shadow-lg p-4 mb-5 bg-white rounded text-center">
+      <img src="img/ratman.webp" class="img-fluid rounded" alt="Founder">
+    </div>
+  </div>
+
+</body>
 </html>
