@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Contact - Ratscallion's Pizza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.bundle.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Honk&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>RATSCALLION'S</h1>
+
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">RATSCALLION'S</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="order.html">Order</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <h2 class="mb-3">Holla!</h2>
+    <p class="lead">
+      Well as you've already made it to this page it's probable you have some sort of complaint...
+      Thanks for your interest in Ratscallion's Pizza. ~Mike
+    </p>
+
+    <h2 class="mt-4">Put Your Government Name There Man</h2>
+
+    <!-- Bootstrap Contact Form -->
+    <form method="post" action="https://www.stonecoldprofessor.com/pizza-contact.php" class="needs-validation" novalidate>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" name="first-name" placeholder="First Name" required>
+        </div>
+        <div class="col-md-6">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastName" name="last-name" placeholder="Last Name" required>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Spill Your Guts</label>
+        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+      </div>
+
+      <div class="mb-3">
+        <p>How Important Really Is Your Message?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="importance" id="kinda" value="Kinda">
+          <label class="form-check-label" for="kinda">Kinda</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="importance" id="notReally" value="Not Really">
+          <label class="form-check-label" for="notReally">Not Really</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="importance" id="nevermind" value="Nevermind">
+          <label class="form-check-label" for="nevermind">Nevermind I'll Just Google it</label>
+        </div>
+      </div>
+
+      <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-warning">Send</button>
+        <button type="reset" class="btn btn-secondary">Clear</button>
+      </div>
+    </form>
+
+    <div class="text-center mt-4">
+      <img src="img/apes.gif" alt="GeekforGeeks" class="img-fluid rounded">
+    </div>
+  </div>
+
+</body>
+</html>

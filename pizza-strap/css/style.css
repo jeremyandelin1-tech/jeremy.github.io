@@ -1,0 +1,109 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gradient background */
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, orange, darkred);
+  color: #fff;
+}
+
+/* Main header (Jacquard font) */
+h1 {
+  font-family: "Jacquard 12 Charted", system-ui;
+  font-weight: 400;
+  font-size: 180px;
+  text-align: center;
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.6);
+}
+
+/* Subheaders (Honk font) */
+h2 {
+  text-align: center;
+  font-family: "Honk", system-ui;
+  font-weight: 400;
+  font-size: 90px;
+  color: #FFD580;
+}
+
+/* Navigation menu */
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  display: inline-flex;
+  margin: 15px;
+  border-radius: 10px;
+  background: radial-gradient(ellipse at top, #DB531F, transparent),
+              radial-gradient(ellipse at bottom, #DEA814, transparent);
+}
+ul li a {
+  display: inline-block;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: Times, serif;
+  color: #443B3C;
+  font-weight: bold;
+}
+ul li a:hover {
+  color: white;
+  background: radial-gradient(ellipse at top, #DEA814, transparent),
+              radial-gradient(ellipse at bottom, #DB531F, transparent);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+/* Paragraph styling */
+p.lead {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  border: dotted 4px #fff;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.3);
+}
+
+/* Container panel for form */
+.container {
+  background: rgba(0,0,0,0.4);
+  border-radius: ;
+  padding:30;
+}
+
+/* Modern gradient navbar */
+.custom-navbar {
+  background: linear-gradient(to right, #DB531F, #DEA814);
+  border-radius:;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.9);
+}
+
+/* Brand styling */
+.custom-navbar .navbar-brand {
+  font-family: "Jacquard 12 Charted", system-ui;
+  font-size: 36px;
+  color: black;
+
+}
+
+/* Nav links */
+.custom-navbar .nav-link {
+  font-family: "Honk", system-ui;
+  font-size: 22px;
+  color: black;
+  transition: all 0.3s ease;
+  padding: 8px 16px;
+  border-radius:;
+}
+
+/* Hover + active states */
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  background: rgba(255,255,255,0.2);
+  color: #FFD580;
+}

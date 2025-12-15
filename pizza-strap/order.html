@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Order - Ratscallion's Pizza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.bundle.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Honk&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>RATSCALLION'S</h1>
+
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">RATSCALLION'S</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="order.html">Order</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+  <h2>Tell Me Whatchu Want</h2>
+
+  <div class="container my-4">
+    <p class="lead">
+      Orders can take a long time so if that’s a problem, you pry oughta learn to toss your own pie...
+      Don’t forget if you beat my score on the Ninja Turtles pinball you get a free slice of pizza.
+    </p>
+
+    <form method="post" action="https://www.stonecoldprofessor.com/pizza-order.php" class="needs-validation" novalidate>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="first" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="first" name="first" required>
+        </div>
+        <div class="col-md-6">
+          <label for="last" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="last" name="last" required>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="add1" class="form-label">Address 1</label>
+        <input type="text" class="form-control" id="add1" name="add1" required>
+      </div>
+      <div class="mb-3">
+        <label for="add2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="add2" name="add2">
+      </div>
+      <div class="row mb-3">
+        <div class="col-md-4">
+          <label for="city" class="form-label">City</label>
+          <input type="text" class="form-control" id="city" name="city" required>
+        </div>
+        <div class="col-md-4">
+          <label for="state" class="form-label">State</label>
+          <select class="form-select" id="state" name="state" required>
+            <option value="">Choose...</option>
+            <option value="AL">Alabama</option>
+			<option value="AK">Alaska</option>
+			<option value="AZ">Arizona</option>
+			<option value="AR">Arkansas</option>
+			<option value="CA">California</option>
+			<option value="CO">Colorado</option>
+			<option value="CT">Connecticut</option>
+			<option value="DE">Delaware</option>
+			<option value="DC">District Of Columbia</option>
+			<option value="FL">Florida</option>
+			<option value="GA">Georgia</option>
+			<option value="HI">Hawaii</option>
+			<option value="ID">Idaho</option>
+			<option value="IL">Illinois</option>
+			<option value="IN">Indiana</option>
+			<option value="IA">Iowa</option>
+			<option value="KS">Kansas</option>
+			<option value="KY">Kentucky</option>
+			<option value="LA">Louisiana</option>
+			<option value="ME">Maine</option>
+			<option value="MD">Maryland</option>
+			<option value="MA">Massachusetts</option>
+			<option value="MI">Michigan</option>
+			<option value="MN">Minnesota</option>
+			<option value="MS">Mississippi</option>
+			<option value="MO">Missouri</option>
+			<option value="MT">Montana</option>
+			<option value="NE">Nebraska</option>
+			<option value="NV">Nevada</option>
+			<option value="NH">New Hampshire</option>
+			<option value="NJ">New Jersey</option>
+			<option value="NM">New Mexico</option>
+			<option value="NY">New York</option>
+			<option value="NC">North Carolina</option>
+			<option value="ND">North Dakota</option>
+			<option value="OH">Ohio</option>
+			<option value="OK">Oklahoma</option>
+			<option value="OR">Oregon</option>
+			<option value="PA">Pennsylvania</option>
+			<option value="RI">Rhode Island</option>
+			<option value="SC">South Carolina</option>
+			<option value ="SD "> South Dakota </option>
+			<option value ="TN "> Tennessee </option>
+			<option value ="TX "> Texas </option>
+			<option value ="UT "> Utah </option>
+			<option value ="VT "> Vermont </option>
+			<option value ="VA "> Virginia </option>
+			<option value ="WA "> Washington </option>
+			<option value ="WV "> West Virginia </option>
+			<option value ="WI "> Wisconsin </option>
+			<option value ="WY "> Wyoming </option>
+
+<form action="https://www.stonecoldprofessor.com/pizza-order.php">
+<br>
+
+
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="zip" class="form-label">Zip Code</label>
+          <input type="text" class="form-control" id="zip" name="zip" required>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="comments" class="form-label">Spill Your Guts</label>
+        <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label for="crust" class="form-label">Crust</label>
+        <select class="form-select" id="crust" name="crust">
+          <option value="New York">New York</option>
+          <option value="Chicago">Chicago</option>
+          <option value="Pan">Pan</option>
+          <option value="Cauliflower">Cauliflower</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <p>Size</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="size" id="xl" value="XL Big Boi">
+          <label class="form-check-label" for="xl">XL "Big Boi"</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="size" id="l" value="L Hungry Enough">
+          <label class="form-check-label" for="l">L "Hungry Enough"</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="size" id="m" value="M No Leftovers">
+          <label class="form-check-label" for="m">M "No Leftovers"</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="size" id="sm" value="SM Shoulda Got Two">
+          <label class="form-check-label" for="sm">SM "Shoulda Got Two"</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="size" id="slice" value="Slice">
+          <label class="form-check-label" for="slice">Slice "Betcha Can't Have Just One"</label>
+        </div>
+      </div>
+
+      
+		
+        <div class="mb-3">
+  <p>Toppings</p>
+
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" name="toppings[]" id="paper" value="Paper">
+    <label class="form-check-label" for="paper">
+      Paper
+      <img src="img/paper.jpg" width="100px" height="100px" alt="Paper">
+    </label>
+  </div>
+
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" name="toppings[]" id="hotwheels" value="Hotwheels">
+    <label class="form-check-label" for="hotwheels">
+      Hotwheels
+      <img src="img/car.webp" width="100px" height="100px" alt="HotWheels">
+    </label>
+  </div>
+
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" name="toppings[]" id="ricearoni" value="Ricearoni">
+    <label class="form-check-label" for="ricearoni">
+      Ricearoni
+      <img src="img\roni.webp" width="100px" height="100px" alt="Ricearoni">
+    </label>
+  </div>
+
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" name="toppings[]" id="baklava" value="Baklava">
+    <label class="form-check-label" for="baklava">
+      Turkish Baklava
+      <img src="img/baklava.jpeg" width="100px" height="100px" alt="Sweet Jesus">
+    </label>
+  </div>
+</div>
+
+
+      <div class="d-flex gap-2">
+        <button type="reset" class="btn btn-secondary">Clear</button>
+        <button type="submit" class="btn btn-warning">Order Now</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
